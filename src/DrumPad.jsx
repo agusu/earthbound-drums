@@ -23,7 +23,7 @@ export default function DrumPad ({keyID, keyCode, name, src, updateDisplay}) {
       }, [keyID, keyCode, name, src, updateDisplay, playAndUpdate]);
 
     return(<div className="drum-pad" onClick={playAndUpdate}>
-            {keyID}
+            {keyID} {keyCode}
             <audio className="clip" id={keyID} src={src}/>
             </div>)
 }

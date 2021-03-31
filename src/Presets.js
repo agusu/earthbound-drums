@@ -11,14 +11,14 @@ import c from "./sounds/okdesuka.wav"
 
 const soundPreset = {
     "Q": {name: "Attack 1", src: q, keyCode: 81},
-    "W": {name: "Wow!", src: w, keycode: 87},
-    "E": {name: "PSI", src: e, keycode: 69},
-    "A": {name: "Cursor Horizontal", src: a, keycode: 65},
-    "S": {name: "Cursor Vertical", src: s, keycode: 83},
-    "D": {name: "Text", src: d, keycode: 68},
-    "Z": {name: "Present Open", src: z, keycode: 90},
-    "X": {name: "Window", src: x, keycode: 88},
-    "C": {name: "OK desu ka?", src: c, keycode: 67}
+    "W": {name: "Wow!", src: w, keyCode: 87},
+    "E": {name: "PSI", src: e, keyCode: 69},
+    "A": {name: "Cursor Horizontal", src: a, keyCode: 65},
+    "S": {name: "Cursor Vertical", src: s, keyCode: 83},
+    "D": {name: "Text", src: d, keyCode: 68},
+    "Z": {name: "Present Open", src: z, keyCode: 90},
+    "X": {name: "Window", src: x, keyCode: 88},
+    "C": {name: "OK desu ka?", src: c, keyCode: 67}
  }
 
 export default soundPreset
