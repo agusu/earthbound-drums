@@ -1,16 +1,51 @@
-#drums {
-    padding: 20px 20px 20px 20px;
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+$border: 6px solid rgb(214, 214, 214);
+$border-radius: 10px;
+#root {
+    background-image: url('./bg-pattern.png');
+    background-size: 100px;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.drum-machine {
+    display:block; 
+}
+#display {
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    color:white;
+    text-align:center;
+    border: $border;
+    border-radius: 10px;
     width: 500px;
-    height: 500px;
-    background-color:gray;
+    min-height:30px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+#drums {
+    padding: 20px 0px 20px 20px;
+    width: 500px;
+    min-height: 200px;
+    background-color:black;
+    color:white;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
     display:grid;
     grid-template-columns: repeat(3, 30%);
     grid-template-rows: repeat(3, 30%);
     grid-gap: 10px;
     text-align: center;
+    border: $border;
+    border-radius: $border-radius;
     .drum-pad{    
-        border: 1px solid white;
+        border: 1px solid rgba(255,255,255,0.2);
+        height: 60px;
         align-self: center;
-        background-color: lightblue;
+        background-color: black;
     }    
+    .drum-pad:hover{
+        background-color:purple;
+    }
 }
