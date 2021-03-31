@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/earthbound-drums/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/earthbound-drums/static/js/main.566cbd50.chunk.js",
-    "main.js.map": "/earthbound-drums/static/js/main.566cbd50.chunk.js.map",
-    "runtime-main.js": "/earthbound-drums/static/js/runtime-main.8c39b3dd.js",
-    "runtime-main.js.map": "/earthbound-drums/static/js/runtime-main.8c39b3dd.js.map",
-    "static/js/2.7c2e35bd.chunk.js": "/earthbound-drums/static/js/2.7c2e35bd.chunk.js",
-    "static/js/2.7c2e35bd.chunk.js.map": "/earthbound-drums/static/js/2.7c2e35bd.chunk.js.map",
-    "static/js/3.7b2b3958.chunk.js": "/earthbound-drums/static/js/3.7b2b3958.chunk.js",
-    "static/js/3.7b2b3958.chunk.js.map": "/earthbound-drums/static/js/3.7b2b3958.chunk.js.map",
+    "main.css": "/earthbound-drums/static/css/main.3e70a89b.chunk.css",
+    "main.js": "/earthbound-drums/static/js/main.e090a6a6.chunk.js",
+    "main.js.map": "/earthbound-drums/static/js/main.e090a6a6.chunk.js.map",
+    "runtime-main.js": "/earthbound-drums/static/js/runtime-main.30ec7eea.js",
+    "runtime-main.js.map": "/earthbound-drums/static/js/runtime-main.30ec7eea.js.map",
+    "static/js/2.4b0d76c3.chunk.js": "/earthbound-drums/static/js/2.4b0d76c3.chunk.js",
+    "static/js/2.4b0d76c3.chunk.js.map": "/earthbound-drums/static/js/2.4b0d76c3.chunk.js.map",
+    "static/js/3.574f6eda.chunk.js": "/earthbound-drums/static/js/3.574f6eda.chunk.js",
+    "static/js/3.574f6eda.chunk.js.map": "/earthbound-drums/static/js/3.574f6eda.chunk.js.map",
     "index.html": "/earthbound-drums/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/earthbound-drums/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.7c2e35bd.chunk.js.LICENSE.txt": "/earthbound-drums/static/js/2.7c2e35bd.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/earthbound-drums/static/media/logo.6ce24c58.svg"
+    "static/css/main.3e70a89b.chunk.css.map": "/earthbound-drums/static/css/main.3e70a89b.chunk.css.map",
+    "static/js/2.4b0d76c3.chunk.js.LICENSE.txt": "/earthbound-drums/static/js/2.4b0d76c3.chunk.js.LICENSE.txt",
+    "static/media/attack1.87b04402.wav": "/earthbound-drums/static/media/attack1.87b04402.wav",
+    "static/media/curshoriz.5725f568.wav": "/earthbound-drums/static/media/curshoriz.5725f568.wav",
+    "static/media/cursverti.f6857b82.wav": "/earthbound-drums/static/media/cursverti.f6857b82.wav",
+    "static/media/okdesuka.993bab3a.wav": "/earthbound-drums/static/media/okdesuka.993bab3a.wav",
+    "static/media/present.833921b9.wav": "/earthbound-drums/static/media/present.833921b9.wav",
+    "static/media/psi.4fb5935e.wav": "/earthbound-drums/static/media/psi.4fb5935e.wav",
+    "static/media/text.5f1600a4.wav": "/earthbound-drums/static/media/text.5f1600a4.wav",
+    "static/media/window.5d7f2cb9.wav": "/earthbound-drums/static/media/window.5d7f2cb9.wav",
+    "static/media/wow.e2d65668.wav": "/earthbound-drums/static/media/wow.e2d65668.wav"
   },
   "entrypoints": [
-    "static/js/runtime-main.8c39b3dd.js",
-    "static/js/2.7c2e35bd.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.566cbd50.chunk.js"
+    "static/js/runtime-main.30ec7eea.js",
+    "static/js/2.4b0d76c3.chunk.js",
+    "static/css/main.3e70a89b.chunk.css",
+    "static/js/main.e090a6a6.chunk.js"
   ]
 }
