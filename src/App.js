@@ -11,7 +11,7 @@ function App() {
       <Display text={currentSound}/>
       <div id="drums">
         {keyPreset.map((key) => {return (
-            <DrumPad key={key} keyID={key} keyCode={soundPreset.keyCode} 
+            <DrumPad key={key} keyID={key} keyCode={soundPreset[key].keyCode} 
               name={soundPreset[key].name} src={soundPreset[key].src} updateDisplay={setSound}/>
             )})}
       </div>
