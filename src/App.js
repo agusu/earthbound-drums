@@ -7,7 +7,7 @@ import soundPreset, {keyPreset} from './Presets.js'
 function App() {
   const [currentSound, setSound] = useState("");
   return (
-    <div className="drum-machine">
+    <div id="drum-machine">
       <Display text={currentSound}/>
       <div id="drums">
         {keyPreset.map((key) => {return (

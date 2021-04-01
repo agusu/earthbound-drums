@@ -4,12 +4,17 @@ $border-radius: 10px;
 #root {
     background-image: url('./bg-pattern.png');
     background-size: 100px;
+    min-height: 100vh;
+    min-width:100vw;
+    display: flex;
     align-items:center;
     justify-content: center;
-    min-height: 100vh;
 }
-.drum-machine {
+#drum-machine {
     display:block; 
+    margin:auto !important;
+    justify-content: center;
+    align-items: center;
 }
 #display {
     font-family: 'VT323', monospace;
@@ -39,13 +44,30 @@ $border-radius: 10px;
     text-align: center;
     border: $border;
     border-radius: $border-radius;
+
     .drum-pad{    
-        border: 1px solid rgba(255,255,255,0.2);
         height: 60px;
         align-self: center;
         background-color: black;
     }    
-    .drum-pad:hover{
+    .drum-pad:active{
         background-color:purple;
     }
+    .drum-pad span{
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+    }
+    .drum-pad span:after {
+        content: '▸';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        left: -25px;
+      }
+
+    .drum-pad:hover span:after {
+        opacity: 1;
+    }
+
 }
