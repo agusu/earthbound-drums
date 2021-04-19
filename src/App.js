@@ -14,6 +14,7 @@ function App() {
             <DrumPad key={key} keyID={key} keyCode={soundPreset[key].keyCode} 
               name={soundPreset[key].name} src={soundPreset[key].src} updateDisplay={setSound}/>
             )})}
+            
       </div>
     </div>
   );

@@ -1,73 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap");
 $border: 6px solid rgb(214, 214, 214);
 $border-radius: 10px;
 #root {
-    background-image: url('./bg-pattern.png');
-    background-size: 100px;
-    min-height: 100vh;
-    min-width:100vw;
-    display: flex;
-    align-items:center;
-    justify-content: center;
+  background-image: url("./bg-pattern.png");
+  background-size: 100px;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #drum-machine {
-    display:block; 
-    margin:auto !important;
-    justify-content: center;
-    align-items: center;
+  display: block;
+  margin: auto !important;
+  justify-content: center;
+  align-items: center;
 }
 #display {
-    font-family: 'VT323', monospace;
-    font-size: 30px;
-    color:white;
-    text-align:center;
-    border: $border;
-    border-radius: 10px;
-    width: 500px;
-    min-height:60px;
-    background-color: black;
-    margin-bottom: 20px;
+  font-family: "VT323", monospace;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  border: $border;
+  border-radius: 10px;
+  width: 500px;
+  min-height: 60px;
+  background-color: black;
+  margin-bottom: 20px;
 }
 
 #drums {
-    padding: 20px 0px 20px 20px;
-    width: 500px;
-    min-height: 200px;
-    background-color:black;
-    color:white;
-    font-family: 'VT323', monospace;
-    font-size: 40px;
-    display:grid;
-    grid-template-columns: repeat(3, 30%);
-    grid-template-rows: repeat(3, 30%);
-    grid-gap: 10px;
-    text-align: center;
-    border: $border;
-    border-radius: $border-radius;
+  padding: 20px 0px 20px 20px;
+  width: 500px;
+  min-height: 200px;
+  background-color: black;
+  color: white;
+  font-family: "VT323", monospace;
+  font-size: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: repeat(3, 30%);
+  grid-gap: 10px;
+  text-align: center;
+  border: $border;
+  border-radius: $border-radius;
 
-    .drum-pad{    
-        height: 60px;
-        align-self: center;
-        background-color: black;
-    }    
-    .drum-pad:active{
-        background-color:purple;
-    }
-    .drum-pad span{
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-    }
-    .drum-pad span:after {
-        content: '▸';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        left: -25px;
-      }
+  .drum-pad {
+    height: 60px;
+    align-self: center;
+    background-color: black;
+  }
+  .drum-pad:active {
+    background-color: purple;
+  }
+  .drum-pad span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+  }
+  .drum-pad span:after {
+    content: "▸";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -25px;
+  }
 
-    .drum-pad:hover span:after {
-        opacity: 1;
-    }
-
+  .drum-pad:hover span:after {
+    opacity: 1;
+  }
 }
